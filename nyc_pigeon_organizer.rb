@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       }
         if class_a = :color 
            binding.pry
-          new_data[name][:color].push(stats.key(name))
+          new_data[name][:color].push(stats.to_s)
          
         end     
         if class_a = :gender
