@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
         :lives => []
       }
         if class_a = :color 
-           binding.pry
+          
           new_data[name][:color].push(stats.to_s)
          
         end     
@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
         end 
         
       end
-          
+        binding.pry  
     end 
    
   end
