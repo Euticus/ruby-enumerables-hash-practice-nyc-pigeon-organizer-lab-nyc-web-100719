@@ -8,6 +8,9 @@ def nyc_pigeon_organizer(data)
       if !new_data[name]
         new_data[name] = {}
       end
+      if !new_data[class_a]
+        new_data[name][class_a] = {}
+        
       binding.pry
         if class_a = :color 
           new_data[name][:color].push(stats.to_s)
