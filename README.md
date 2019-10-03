@@ -26,7 +26,7 @@ pigeon_data = {
     :grey => ["Theo", "Peter Jr.", "Ms. K"],
     :white => ["Queenie", "Andrew", "Ms. K", "Alex"],
     :brown => ["Queenie", "Alex"]
-  },
+  },  
   :gender => {
     :male => ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"],
     :female => ["Queenie", "Ms. K"]
