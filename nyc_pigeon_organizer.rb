@@ -16,11 +16,11 @@ def nyc_pigeon_organizer(data)
          
         end     
         if class_a = :gender
-          new_data[name][:gender].push(stats.key(name))
+          new_data[name][:gender].push(stats.to_s)
            
         end
         if class_a = :lives
-         new_data[name][:lives].push(stats.key(name))
+         new_data[name][:lives].push(stats.to_s)
         end 
         
       end
