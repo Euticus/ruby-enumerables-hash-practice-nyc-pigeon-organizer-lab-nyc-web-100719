@@ -12,7 +12,6 @@ def nyc_pigeon_organizer(data)
         new_data[name][class_a] = []
       end 
       new_data[name][class_a].push(stats.to_s)
-      binding.pry
       end
     end
   end
