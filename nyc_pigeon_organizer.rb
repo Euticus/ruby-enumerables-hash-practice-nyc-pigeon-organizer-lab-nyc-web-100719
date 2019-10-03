@@ -5,7 +5,9 @@ def nyc_pigeon_organizer(data)
   data.each do |class_a, attributes_names|
     attributes_names.each do |stats, array_names|
       array_names.each do |name|
-      new_data[name] = {}
+      if !new_data[name]
+        new_data[name] = {}
+      end
       binding.pry
         if class_a = :color 
           new_data[name][:color].push(stats.to_s)
